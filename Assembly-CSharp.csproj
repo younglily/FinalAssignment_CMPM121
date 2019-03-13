@@ -60,8 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FloatingAnimation.cs" />
     <Compile Include="Assets\Follow.cs" />
     <Compile Include="Assets\Move.cs" />
+    <Compile Include="Assets\Pickup.cs" />
+    <None Include="Assets\Fruit Pack\Shaders\ToonLitTransparent.shader" />
+    <None Include="Assets\Fruit Pack\Shaders\ToonLit.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Lily/OneDrive/Documents/finalproject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
