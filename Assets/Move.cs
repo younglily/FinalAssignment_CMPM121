@@ -11,9 +11,9 @@ public class Move : MonoBehaviour
     private CharacterController character;
     private Animator anim;
 
-    private int applesCollected;
-    private int bananasCollected;
-    private int pearsCollected;
+    public int applesCollected;
+    public int bananasCollected;
+    public int pearsCollected;
 
     public Text totalApples;
     public Text totalPears;
@@ -31,6 +31,7 @@ public class Move : MonoBehaviour
         totalApples.text = "";
         totalPears.text = "";
         totalBananas.text = "";
+   
         anim = GetComponent<Animator>();
         
     }
@@ -72,10 +73,14 @@ public class Move : MonoBehaviour
         //
         if (startTime >= 10.0)
         {
-            Debug.Log("Player destroyed GO");
             startTime = 0;
             other.gameObject.SetActive(true);
         }
+    }
+    
+    public int Apples()
+    {
+        return applesCollected;
     }
 
     // Update is called once per frame

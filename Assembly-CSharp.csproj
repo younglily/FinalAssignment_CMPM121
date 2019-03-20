@@ -60,12 +60,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\chickenDialogue.cs" />
+    <Compile Include="Assets\cowDialogue.cs" />
     <Compile Include="Assets\FloatingAnimation.cs" />
     <Compile Include="Assets\Follow.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Pickup.cs" />
+    <Compile Include="Assets\sheepDialogue.cs" />
     <None Include="Assets\Fruit Pack\Shaders\ToonLitTransparent.shader" />
     <None Include="Assets\Fruit Pack\Shaders\ToonLit.shader" />
+    <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Lily/OneDrive/Documents/finalproject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
