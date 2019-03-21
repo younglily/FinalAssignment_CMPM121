@@ -64,6 +64,7 @@
     <Compile Include="Assets\cowDialogue.cs" />
     <Compile Include="Assets\FloatingAnimation.cs" />
     <Compile Include="Assets\Follow.cs" />
+    <Compile Include="Assets\LoadSceneOnClick.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Pickup.cs" />
     <Compile Include="Assets\sheepDialogue.cs" />
